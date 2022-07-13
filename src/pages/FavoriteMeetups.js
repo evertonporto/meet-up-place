@@ -1,5 +1,5 @@
-function FavoriteMeetups(){
-    return(<div>
+function FavoriteMeetups() {
+    return (<div>
         FavoriteMeetups
     </div>
     )

@@ -1,20 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import AllMeetups from './pages/AllMeetups';
-import { BrowserRouter, Route, Routes,
- } from 'react-router-dom';
-
+import App from './App'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-   <Routes>
-     <Route path="/" element= {<AllMeetups/>}/>
-   </Routes>
-  </BrowserRouter>
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function

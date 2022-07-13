@@ -1,5 +1,5 @@
-function NewMeetups(){
-    return(
+function NewMeetups() {
+    return (
         <div>
             NewMeetups page
         </div>

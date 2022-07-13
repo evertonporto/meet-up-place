@@ -1,29 +1,22 @@
-
-import AllMeetupsPage from './pages/AllMeetups';
+import AllMeetups from './pages/AllMeetups';
 import FavoriteMeetups from './pages/FavoriteMeetups';
 import NewMeetups from './pages/NewMeetups';
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import MainNavigation from './components/layout/MainNavigation'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
   return (
-    <Router>
-    <div>
+    <BrowserRouter>
+      <MainNavigation path="/" />
+
       <Routes>
-        <Route path='/'>
-          <AllMeetupsPage />
-        </Route>
-        <Route path='/NewMeetups'>
-          <NewMeetups />
-        </Route>
-        <Route path='/FavoriteMeetups'>
-          <FavoriteMeetups />
-        </Route>
+        <Route path="/" element={<AllMeetups />} />
+        <Route path="/Favorite" element={<FavoriteMeetups />} />
+        <Route path="/New" element={<NewMeetups />} />
       </Routes>
-    </div>
-    </Router>
-  );
+    </BrowserRouter>);
 }
 
 export default App;

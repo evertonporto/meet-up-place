@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    color: white;
+    background-color: rgb(138, 54, 135);
+    padding: 0% 5%;
+    height: 4rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+header li{
+    margin-right: 3rem;
+    padding: 5rem;
+}
+
+header a{ 
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 0.5rem;
+}
