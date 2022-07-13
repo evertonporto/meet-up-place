@@ -1,4 +1,8 @@
-function AllMeetupsPage(){
+const DUMMY_DATA = [
+    {}
+]
+
+function AllMeetupsPage() {
     return (
         <div>
             All Meetups page
