@@ -4,7 +4,7 @@
     background-color: rgb(138, 54, 135);
     padding: 0% 5%;
     height: 4rem;
-    width: 100%;
+    /* width: 100%; */ /* took it off making page slide to right */
     justify-content: space-between;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +28,7 @@
 }
 
 header li{
-    margin-right: 3rem;
+    margin-right: 0rem;
     padding: 5rem;
 }
 
@@ -37,4 +37,11 @@ header a{
     font-size: 1.5rem;
     color: white;
     padding-right: 0.5rem;
+}
+
+
+.all-meetups{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
