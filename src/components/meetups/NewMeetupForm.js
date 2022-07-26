@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 
 import Card from '../ui/Card'
-import classes from './NewMeetupForm.css'
+import './NewMeetupForm.css'
 
 function NewMeetupForm(props) {
     const titleInputRef = useRef();
@@ -29,10 +29,12 @@ function NewMeetupForm(props) {
             <div className="control">
                 <label htmlFor="title">Meetup Title</label>
                 <input type="text" className="form-control" required id="title" ref={titleInputRef} />
-            </div> <div className="control">
+            </div>
+            <div className="control">
                 <label htmlFor="image">Meetup Image</label>
                 <input type="url" className="form-control" required id="url" ref={imageInputRef} />
-            </div> <div className="control">
+            </div>
+            <div className="control">
                 <label htmlFor="address">Meetup address</label>
                 <input type="text" className="form-control" required id="adress" ref={adressInputRef} />
             </div>
